@@ -1,6 +1,7 @@
 {
   "name": "my-project1",
   "version": "1.0.0",
+  "type" : "module",
   "description": "Мой первый проект на Хекслете",
   "main": "index.js",
   "scripts": {
@@ -11,10 +12,15 @@
     "url": "git+https://github.com/Zhitik13/hexlet-js.git"
   },
   "author": "Pavel Zhitenev",
-  "emeil" : "pavelzhitenev@gmail.com",
+  "emeil": "pavelzhitenev@gmail.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Zhitik13/hexlet-js/issues"
   },
-  "homepage": "https://github.com/Zhitik13/hexlet-js#readme"
+  "homepage": "https://github.com/Zhitik13/hexlet-js#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {},
+  "keywords": []
 }
